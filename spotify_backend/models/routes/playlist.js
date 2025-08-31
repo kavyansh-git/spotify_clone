@@ -33,7 +33,7 @@ router.post(
 // we will get the playlist ID as a route parameter and we will return teh playlist having that id
 // /something1/something2/something3 --> exact match
 // /something1/something2/something4 --> this will not call the api on the previus line
-// If we are doing /playlist/get/:playlistId (focus on teh :) --> this means that playlistId is now a variable to which we can assign any value
+// If we are doing /playlist/get/:playlistId (focus on the :) --> this means that playlistId is now a variable to which we can assign any value
 // If you call anything of the format /playlist/get/asdvniuen (asdvniuen can be anything), this api is called
 // If you called /playlist/get/asdvniuen, the playlistId variable gets assigned teh value asdvniuen.
 router.get(
